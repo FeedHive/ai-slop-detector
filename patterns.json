@@ -146,6 +146,13 @@
           "description": "in today's fast-paced world, in the digital age, in an era of, now more than ever.",
           "bad": "\"In today's fast-paced digital world, content is king.\"",
           "better": "Cut it and start with the point."
+        },
+        {
+          "id": "V-21",
+          "name": "I'd be happy to",
+          "description": "AI offer openers: I'd be happy to, I'd be delighted to, I'd be thrilled to.",
+          "bad": "\"I'd be happy to help you with that.\"",
+          "better": "\"Here's what I can do.\""
         }
       ]
     },
@@ -240,7 +247,7 @@
         },
         {
           "id": "P-13",
-          "name": "Sign-off clichés",
+          "name": "Sign-off clich\u00e9s",
           "description": "I hope this helps, happy writing, feel free to reach out, let me know if you have any questions.",
           "bad": "A post or article ending with \"Hope this helps!\"",
           "better": "End on the last useful point."
@@ -258,6 +265,34 @@
           "description": "the future is bright, the possibilities are endless, only time will tell, the sky's the limit.",
           "bad": "\"With AI, the possibilities are endless.\"",
           "better": "Name one thing that is now possible."
+        },
+        {
+          "id": "P-16",
+          "name": "Feel free to",
+          "description": "feel free to reach out, feel free to ask, feel free to share (as filler, not just sign-off).",
+          "bad": "\"Feel free to reach out if you have any questions.\"",
+          "better": "\"Email me if something breaks.\""
+        },
+        {
+          "id": "P-17",
+          "name": "Keep in mind",
+          "description": "keep in mind, bear in mind, it's worth remembering (hedge phrases AI overuses).",
+          "bad": "\"Keep in mind that results may vary.\"",
+          "better": "\"Results varied by 12% in our test.\""
+        },
+        {
+          "id": "P-18",
+          "name": "Needless to say",
+          "description": "needless to say, it goes without saying, as you may know (filler transitions).",
+          "bad": "\"Needless to say, consistency is important.\"",
+          "better": "\"Consistency matters.\""
+        },
+        {
+          "id": "P-19",
+          "name": "As a [role]",
+          "description": "AI self-identification to borrow authority: As a marketing professional, As an expert in.",
+          "bad": "\"As a marketing professional, I can tell you that...\"",
+          "better": "\"We tested this on 40 accounts. Here's what happened.\""
         }
       ]
     },
@@ -419,6 +454,20 @@
           "description": "\"Actually, let me rephrase that\", \"Or rather...\"",
           "bad": "\"It's fast. Or rather, it's instant.\"",
           "better": "\"It's instant.\""
+        },
+        {
+          "id": "S-23",
+          "name": "If you've ever...",
+          "description": "False familiarity setup: If you've ever wondered, If you've ever struggled with.",
+          "bad": "\"If you've ever struggled with writer's block, this is for you.\"",
+          "better": "\"This helps when you can't think of what to post.\""
+        },
+        {
+          "id": "S-24",
+          "name": "Sound familiar?",
+          "description": "Rhetorical resonance device: Sound familiar?, Ring a bell?, You know the feeling?",
+          "bad": "\"Deadlines, pressure, no time to think. Sound familiar?\"",
+          "better": "\"Most teams don't have time to write posts.\""
         }
       ]
     },
@@ -662,7 +711,7 @@
           "id": "F-01",
           "name": "Em dash habit",
           "description": "Em dashes used everywhere for rhythm.",
-          "bad": "\"It's fast — really fast — and free.\"",
+          "bad": "\"It's fast \u2014 really fast \u2014 and free.\"",
           "better": "\"It's fast and free.\" Use commas, periods or parentheses."
         },
         {
@@ -675,8 +724,8 @@
         {
           "id": "F-03",
           "name": "Emoji as bullets",
-          "description": "✅ 🚀 💡 👉 used as list markers or decoration.",
-          "bad": "\"✅ Faster ✅ Cheaper ✅ Better\"",
+          "description": "\u2705 \ud83d\ude80 \ud83d\udca1 \ud83d\udc49 used as list markers or decoration.",
+          "bad": "\"\u2705 Faster \u2705 Cheaper \u2705 Better\"",
           "better": "A plain sentence."
         },
         {
@@ -704,7 +753,7 @@
           "id": "F-07",
           "name": "Curly-quote and character mix",
           "description": "Curly quotes, special dashes and non-breaking spaces mixed with plain text.",
-          "bad": "“quotes” next to \"quotes\" in one paragraph.",
+          "bad": "\u201cquotes\u201d next to \"quotes\" in one paragraph.",
           "better": "Pick one style."
         },
         {
@@ -717,7 +766,7 @@
         {
           "id": "F-09",
           "name": "Unicode bold and fancy fonts in long posts",
-          "description": "𝗕𝗼𝗹𝗱 or 𝓈𝒸𝓇𝒾𝓅𝓉 letters across whole lines.",
+          "description": "\ud835\uddd5\ud835\uddfc\ud835\uddf9\ud835\uddf1 or \ud835\udcc8\ud835\udcb8\ud835\udcc7\ud835\udcbe\ud835\udcc5\ud835\udcc9 letters across whole lines.",
           "bad": "An entire LinkedIn post in Unicode bold.",
           "better": "Plain text, one bold phrase at most (screen readers can't read these)."
         },
@@ -790,6 +839,20 @@
           "description": "Leftover markers like [1], contentReference, oaicite, turn0search0.",
           "bad": null,
           "better": "Remove them, and check the claim they were attached to."
+        },
+        {
+          "id": "B-09",
+          "name": "Happy to help!",
+          "description": "Standalone AI closer: Happy to help!, Glad I could help!, Happy to assist!",
+          "bad": "\"Let me know if you need anything else. Happy to help!\"",
+          "better": "\"Let me know if you need anything else.\""
+        },
+        {
+          "id": "B-10",
+          "name": "I'm here to help",
+          "description": "AI availability assertion: I'm here to help, I'm here to assist, Don't hesitate to ask.",
+          "bad": "\"I'm here to help if you need anything.\"",
+          "better": "Delete it. The work speaks for itself."
         }
       ]
     },
@@ -830,7 +893,7 @@
           "id": "L-05",
           "name": "Agree? / Thoughts?",
           "description": "Engagement-bait closers.",
-          "bad": "\"Agree? 👇\"",
+          "bad": "\"Agree? \ud83d\udc47\"",
           "better": "Ask a real question, or don't."
         },
         {
@@ -850,7 +913,7 @@
         {
           "id": "L-08",
           "name": "Thread markers",
-          "description": "🧵, 1/, \"A thread\" on content that isn't a thread.",
+          "description": "\ud83e\uddf5, 1/, \"A thread\" on content that isn't a thread.",
           "bad": null,
           "better": "Write the post."
         },
@@ -871,7 +934,7 @@
         {
           "id": "L-11",
           "name": "P.S. engagement",
-          "description": "\"P.S. Repost ♻️ if this helped.\" on every post.",
+          "description": "\"P.S. Repost \u267b\ufe0f if this helped.\" on every post.",
           "bad": null,
           "better": "Drop it, or use it rarely."
         },

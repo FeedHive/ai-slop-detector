@@ -1,6 +1,6 @@
 # AI Slop Detector
 
-120 patterns that make writing read like AI slop, in 9 categories. Each pattern has a short explanation, a bad example and a plain rewrite.
+129 patterns that make writing read like AI slop, in 9 categories. Each pattern has a short explanation, a bad example and a plain rewrite.
 
 Give the list to your AI before it writes, or check a draft against it afterwards. To check a draft in your browser, paste it into the free [AI Slop Detector](https://www.feedhive.com/tools/ai-slop-detector).
 
@@ -29,14 +29,14 @@ cp -r ai-slop-detector/skills/ai-slop-detector ~/.claude/skills/
 
 | Category | Patterns |
 |---|---|
-| [Vocabulary](#vocabulary) | 20 |
-| [Stock phrases](#stock-phrases) | 15 |
-| [Sentence patterns](#sentence-patterns) | 22 |
+| [Vocabulary](#vocabulary) | 21 |
+| [Stock phrases](#stock-phrases) | 19 |
+| [Sentence patterns](#sentence-patterns) | 24 |
 | [Structure and rhythm](#structure-and-rhythm) | 12 |
 | [Imagery and metaphor](#imagery-and-metaphor) | 6 |
 | [Substance](#substance) | 12 |
 | [Formatting and punctuation](#formatting-and-punctuation) | 10 |
-| [Chatbot residue](#chatbot-residue) | 8 |
+| [Chatbot residue](#chatbot-residue) | 10 |
 | [Social media and LinkedIn](#social-media-and-linkedin) | 15 |
 
 <a id="vocabulary"></a>
@@ -225,6 +225,15 @@ in today's fast-paced world, in the digital age, in an era of, now more than eve
 Bad: "In today's fast-paced digital world, content is king."  
 Better: Cut it and start with the point.
 
+<a id="v-21-i-d-be-happy-to"></a>
+
+### V-21 I'd be happy to
+
+AI offer openers: I'd be happy to, I'd be delighted to, I'd be thrilled to.
+
+Bad: "I'd be happy to help you with that."  
+Better: "Here's what I can do."
+
 <a id="stock-phrases"></a>
 
 ## Stock phrases
@@ -365,6 +374,42 @@ the future is bright, the possibilities are endless, only time will tell, the sk
 
 Bad: "With AI, the possibilities are endless."  
 Better: Name one thing that is now possible.
+
+<a id="p-16-feel-free-to"></a>
+
+### P-16 Feel free to
+
+feel free to reach out, feel free to ask, feel free to share (as filler, not just sign-off).
+
+Bad: "Feel free to reach out if you have any questions."  
+Better: "Email me if something breaks."
+
+<a id="p-17-keep-in-mind"></a>
+
+### P-17 Keep in mind
+
+keep in mind, bear in mind, it's worth remembering (hedge phrases AI overuses).
+
+Bad: "Keep in mind that results may vary."  
+Better: "Results varied by 12% in our test."
+
+<a id="p-18-needless-to-say"></a>
+
+### P-18 Needless to say
+
+needless to say, it goes without saying, as you may know (filler transitions).
+
+Bad: "Needless to say, consistency is important."  
+Better: "Consistency matters."
+
+<a id="p-19-as-a-role"></a>
+
+### P-19 As a [role]
+
+AI self-identification to borrow authority: As a marketing professional, As an expert in.
+
+Bad: "As a marketing professional, I can tell you that..."  
+Better: "We tested this on 40 accounts. Here's what happened."
 
 <a id="sentence-patterns"></a>
 
@@ -569,6 +614,24 @@ Better: Show why it matters, or delete the aside.
 
 Bad: "It's fast. Or rather, it's instant."  
 Better: "It's instant."
+
+<a id="s-23-if-you-ve-ever"></a>
+
+### S-23 If you've ever...
+
+False familiarity setup: If you've ever wondered, If you've ever struggled with.
+
+Bad: "If you've ever struggled with writer's block, this is for you."  
+Better: "This helps when you can't think of what to post."
+
+<a id="s-24-sound-familiar"></a>
+
+### S-24 Sound familiar?
+
+Rhetorical resonance device: Sound familiar?, Ring a bell?, You know the feeling?
+
+Bad: "Deadlines, pressure, no time to think. Sound familiar?"  
+Better: "Most teams don't have time to write posts."
 
 <a id="structure-and-rhythm"></a>
 
@@ -1027,6 +1090,24 @@ Better: Find the figure or don't mention it.
 Leftover markers like [1], contentReference, oaicite, turn0search0.
 
 Better: Remove them, and check the claim they were attached to.
+
+<a id="b-09-happy-to-help"></a>
+
+### B-09 Happy to help!
+
+Standalone AI closer: Happy to help!, Glad I could help!, Happy to assist!
+
+Bad: "Let me know if you need anything else. Happy to help!"  
+Better: "Let me know if you need anything else."
+
+<a id="b-10-i-m-here-to-help"></a>
+
+### B-10 I'm here to help
+
+AI availability assertion: I'm here to help, I'm here to assist, Don't hesitate to ask.
+
+Bad: "I'm here to help if you need anything."  
+Better: Delete it. The work speaks for itself.
 
 <a id="social-media-and-linkedin"></a>
 

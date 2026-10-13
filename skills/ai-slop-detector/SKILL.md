@@ -1,11 +1,11 @@
 ---
 name: ai-slop-detector
-description: Write without AI slop, or check a draft for it. Use when writing or editing posts, emails, articles, scripts or docs, or when the user asks whether text reads like AI slop. Covers 120 patterns in 9 categories.
+description: Write without AI slop, or check a draft for it. Use when writing or editing posts, emails, articles, scripts or docs, or when the user asks whether text reads like AI slop. Covers 129 patterns in 9 categories.
 ---
 
 # AI Slop Detector
 
-A list of 120 patterns that make writing read like AI slop. Use it in two ways.
+A list of 129 patterns that make writing read like AI slop. Use it in two ways.
 
 ## When you write or edit
 
@@ -39,6 +39,7 @@ List each pattern you find: its ID and name, the exact text it appears in, and a
 - **V-18 Align and resonate.** align with, resonate with, speak to, in line with. Bad: "content that resonates with your audience." Better: "posts your audience replies to."
 - **V-19 Key as an adjective.** key insight, key takeaway, key factor, key role. Bad: "The key takeaway is consistency." Better: "Post on the same days every week."
 - **V-20 Era words.** in today's fast-paced world, in the digital age, in an era of, now more than ever. Bad: "In today's fast-paced digital world, content is king." Better: Cut it and start with the point.
+- **V-21 I'd be happy to.** AI offer openers: I'd be happy to, I'd be delighted to, I'd be thrilled to. Bad: "I'd be happy to help you with that." Better: "Here's what I can do."
 
 ### Stock phrases
 
@@ -57,6 +58,10 @@ List each pattern you find: its ID and name, the exact text it appears in, and a
 - **P-13 Sign-off clichés.** I hope this helps, happy writing, feel free to reach out, let me know if you have any questions. Bad: A post or article ending with "Hope this helps!" Better: End on the last useful point.
 - **P-14 Summary openers.** In conclusion, In summary, To sum up, Overall, All in all. Bad: "In conclusion, consistency is key." Better: End on the last concrete point; the reader was just there.
 - **P-15 Vague future.** the future is bright, the possibilities are endless, only time will tell, the sky's the limit. Bad: "With AI, the possibilities are endless." Better: Name one thing that is now possible.
+- **P-16 Feel free to.** feel free to reach out, feel free to ask, feel free to share (as filler, not just sign-off). Bad: "Feel free to reach out if you have any questions." Better: "Email me if something breaks."
+- **P-17 Keep in mind.** keep in mind, bear in mind, it's worth remembering (hedge phrases AI overuses). Bad: "Keep in mind that results may vary." Better: "Results varied by 12% in our test."
+- **P-18 Needless to say.** needless to say, it goes without saying, as you may know (filler transitions). Bad: "Needless to say, consistency is important." Better: "Consistency matters."
+- **P-19 As a [role].** AI self-identification to borrow authority: As a marketing professional, As an expert in. Bad: "As a marketing professional, I can tell you that..." Better: "We tested this on 40 accounts. Here's what happened."
 
 ### Sentence patterns
 
@@ -82,6 +87,8 @@ List each pattern you find: its ID and name, the exact text it appears in, and a
 - **S-20 From X to Y range.** "From startups to enterprises", "from strategy to execution". Bad: "From ideation to publication, we've got you covered." Better: Name the two steps you actually handle.
 - **S-21 Interpretive asides.** Telling the reader how to read the text. Bad: "That last point matters more than it sounds." Better: Show why it matters, or delete the aside.
 - **S-22 Rhetorical self-correction.** "Actually, let me rephrase that", "Or rather..." Bad: "It's fast. Or rather, it's instant." Better: "It's instant."
+- **S-23 If you've ever....** False familiarity setup: If you've ever wondered, If you've ever struggled with. Bad: "If you've ever struggled with writer's block, this is for you." Better: "This helps when you can't think of what to post."
+- **S-24 Sound familiar?.** Rhetorical resonance device: Sound familiar?, Ring a bell?, You know the feeling? Bad: "Deadlines, pressure, no time to think. Sound familiar?" Better: "Most teams don't have time to write posts."
 
 ### Structure and rhythm
 
@@ -145,6 +152,8 @@ List each pattern you find: its ID and name, the exact text it appears in, and a
 - **B-06 AI disclaimers.** As an AI, I don't have personal opinions; my knowledge is limited to... Better: Delete it.
 - **B-07 Source hedging.** "Based on available information", "specific details are limited". Bad: "While specific figures are not widely available, ..." Better: Find the figure or don't mention it.
 - **B-08 Citation debris.** Leftover markers like [1], contentReference, oaicite, turn0search0. Better: Remove them, and check the claim they were attached to.
+- **B-09 Happy to help!.** Standalone AI closer: Happy to help!, Glad I could help!, Happy to assist! Bad: "Let me know if you need anything else. Happy to help!" Better: "Let me know if you need anything else."
+- **B-10 I'm here to help.** AI availability assertion: I'm here to help, I'm here to assist, Don't hesitate to ask. Bad: "I'm here to help if you need anything." Better: Delete it. The work speaks for itself.
 
 ### Social media and LinkedIn
 
