@@ -904,6 +904,55 @@
           "better": "Make your claim and back it up; skip the strawman."
         }
       ]
+    },
+    {
+      "id": "hard-to-read-syntax",
+      "name": "Hard-to-read syntax",
+      "intro": "Grammar that saves words but slows the reader down. Clark, Martin and Mahowald (2026, arXiv:2610.29162) found frontier models use these more than human writers and more than plain paraphrases of the same content, most of all in long chats and coding status reports. Each one is grammatical; the cost is a second read.",
+      "patterns": [
+        {
+          "id": "H-01",
+          "name": "Dropped \"that\"",
+          "description": "Leaving out an optional \"that\" before a relative or complement clause, so the reader can't see where the clause starts.",
+          "bad": "\"Three tests check behavior the old code never reached.\"",
+          "better": "\"Three tests check behavior that the old code never reached.\""
+        },
+        {
+          "id": "H-02",
+          "name": "Nouns used as verbs",
+          "description": "Turning a noun into a one-off verb to save words: calendar it, footnote it, sandbox it.",
+          "bad": "\"So yes, calendar it.\"",
+          "better": "\"So yes, put it on your calendar.\""
+        },
+        {
+          "id": "H-03",
+          "name": "Objects that act like people",
+          "description": "A thing doing something only a person can: a docstring promises, a function swallows, a bug bites, a worksheet hopes.",
+          "bad": "\"is_file() swallows that and returns False.\"",
+          "better": "\"is_file() catches the error and returns False.\""
+        },
+        {
+          "id": "H-04",
+          "name": "Noun stacks",
+          "description": "Three or more nouns in a row, so the reader has to work out how they group.",
+          "bad": "\"Fixed dotfile backup path handling.\"",
+          "better": "\"Fixed how the backup handles paths to dotfiles.\""
+        },
+        {
+          "id": "H-05",
+          "name": "Subject far from its verb",
+          "description": "A long phrase or list between the subject and its verb, so the reader has to hold the subject in mind.",
+          "bad": "\"The guitar sitting in the corner because you're still deciding teaches you zero chords.\"",
+          "better": "\"You're still deciding, so the guitar sits in the corner. It won't teach you any chords.\""
+        },
+        {
+          "id": "H-06",
+          "name": "Coined word pairs",
+          "description": "Compact phrases nobody else uses, often reused as if they were standard terms.",
+          "bad": "\"Every behavioral test was verified red against the original source.\"",
+          "better": "\"Every new test failed on the original code, as it should.\""
+        }
+      ]
     }
   ]
 }

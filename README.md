@@ -1,6 +1,6 @@
 # AI Slop Detector
 
-120 patterns that make writing read like AI slop, in 9 categories. Each pattern has a short explanation, a bad example and a plain rewrite.
+126 patterns that make writing read like AI slop, in 10 categories. Each pattern has a short explanation, a bad example and a plain rewrite.
 
 Give the list to your AI before it writes, or check a draft against it afterwards. To check a draft in your browser, paste it into the free [AI Slop Detector](https://www.feedhive.com/tools/ai-slop-detector).
 
@@ -38,6 +38,7 @@ cp -r ai-slop-detector/skills/ai-slop-detector ~/.claude/skills/
 | [Formatting and punctuation](#formatting-and-punctuation) | 10 |
 | [Chatbot residue](#chatbot-residue) | 8 |
 | [Social media and LinkedIn](#social-media-and-linkedin) | 15 |
+| [Hard-to-read syntax](#hard-to-read-syntax) | 6 |
 
 <a id="vocabulary"></a>
 
@@ -1157,6 +1158,66 @@ Better: Tell what happened, with dates and numbers.
 "Everyone says X. They're wrong."
 
 Better: Make your claim and back it up; skip the strawman.
+
+<a id="hard-to-read-syntax"></a>
+
+## Hard-to-read syntax
+
+Grammar that saves words but slows the reader down. Clark, Martin and Mahowald (2026, arXiv:2610.29162) found frontier models use these more than human writers and more than plain paraphrases of the same content, most of all in long chats and coding status reports. Each one is grammatical; the cost is a second read.
+
+<a id="h-01-dropped-that"></a>
+
+### H-01 Dropped "that"
+
+Leaving out an optional "that" before a relative or complement clause, so the reader can't see where the clause starts.
+
+Bad: "Three tests check behavior the old code never reached."  
+Better: "Three tests check behavior that the old code never reached."
+
+<a id="h-02-nouns-used-as-verbs"></a>
+
+### H-02 Nouns used as verbs
+
+Turning a noun into a one-off verb to save words: calendar it, footnote it, sandbox it.
+
+Bad: "So yes, calendar it."  
+Better: "So yes, put it on your calendar."
+
+<a id="h-03-objects-that-act-like-people"></a>
+
+### H-03 Objects that act like people
+
+A thing doing something only a person can: a docstring promises, a function swallows, a bug bites, a worksheet hopes.
+
+Bad: "is_file() swallows that and returns False."  
+Better: "is_file() catches the error and returns False."
+
+<a id="h-04-noun-stacks"></a>
+
+### H-04 Noun stacks
+
+Three or more nouns in a row, so the reader has to work out how they group.
+
+Bad: "Fixed dotfile backup path handling."  
+Better: "Fixed how the backup handles paths to dotfiles."
+
+<a id="h-05-subject-far-from-its-verb"></a>
+
+### H-05 Subject far from its verb
+
+A long phrase or list between the subject and its verb, so the reader has to hold the subject in mind.
+
+Bad: "The guitar sitting in the corner because you're still deciding teaches you zero chords."  
+Better: "You're still deciding, so the guitar sits in the corner. It won't teach you any chords."
+
+<a id="h-06-coined-word-pairs"></a>
+
+### H-06 Coined word pairs
+
+Compact phrases nobody else uses, often reused as if they were standard terms.
+
+Bad: "Every behavioral test was verified red against the original source."  
+Better: "Every new test failed on the original code, as it should."
 
 ## License
 

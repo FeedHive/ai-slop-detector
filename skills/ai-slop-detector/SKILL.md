@@ -1,11 +1,11 @@
 ---
 name: ai-slop-detector
-description: Write without AI slop, or check a draft for it. Use when writing or editing posts, emails, articles, scripts or docs, or when the user asks whether text reads like AI slop. Covers 120 patterns in 9 categories.
+description: Write without AI slop, or check a draft for it. Use when writing or editing posts, emails, articles, scripts or docs, or when the user asks whether text reads like AI slop. Covers 126 patterns in 10 categories.
 ---
 
 # AI Slop Detector
 
-A list of 120 patterns that make writing read like AI slop. Use it in two ways.
+A list of 126 patterns that make writing read like AI slop. Use it in two ways.
 
 ## When you write or edit
 
@@ -163,3 +163,12 @@ List each pattern you find: its ID and name, the exact text it appears in, and a
 - **L-13 Comment slop.** Generic replies: "Great insights!", "So true!", "Thanks for sharing, this is gold." Better: Reply to something specific in the post, or don't reply.
 - **L-14 Fake vulnerability arc.** "I failed. I was broke. Then I discovered X." built to sell. Better: Tell what happened, with dates and numbers.
 - **L-15 Contrarian template.** "Everyone says X. They're wrong." Better: Make your claim and back it up; skip the strawman.
+
+### Hard-to-read syntax
+
+- **H-01 Dropped "that".** Leaving out an optional "that" before a relative or complement clause, so the reader can't see where the clause starts. Bad: "Three tests check behavior the old code never reached." Better: "Three tests check behavior that the old code never reached."
+- **H-02 Nouns used as verbs.** Turning a noun into a one-off verb to save words: calendar it, footnote it, sandbox it. Bad: "So yes, calendar it." Better: "So yes, put it on your calendar."
+- **H-03 Objects that act like people.** A thing doing something only a person can: a docstring promises, a function swallows, a bug bites, a worksheet hopes. Bad: "is_file() swallows that and returns False." Better: "is_file() catches the error and returns False."
+- **H-04 Noun stacks.** Three or more nouns in a row, so the reader has to work out how they group. Bad: "Fixed dotfile backup path handling." Better: "Fixed how the backup handles paths to dotfiles."
+- **H-05 Subject far from its verb.** A long phrase or list between the subject and its verb, so the reader has to hold the subject in mind. Bad: "The guitar sitting in the corner because you're still deciding teaches you zero chords." Better: "You're still deciding, so the guitar sits in the corner. It won't teach you any chords."
+- **H-06 Coined word pairs.** Compact phrases nobody else uses, often reused as if they were standard terms. Bad: "Every behavioral test was verified red against the original source." Better: "Every new test failed on the original code, as it should."
